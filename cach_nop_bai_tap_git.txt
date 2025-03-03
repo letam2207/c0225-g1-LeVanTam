@@ -1,0 +1,5 @@
+// up bài git
+git add .
+git commit -m"
+
+git push origin main
