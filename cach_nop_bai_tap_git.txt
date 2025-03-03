@@ -1,5 +1,5 @@
 // up bài git
 git add .
-git commit -m"
+git commit -m"nội dung cần nộp"
 
 git push origin main
