@@ -3,6 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 50%;
+        }
+
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        tr:nth-child(even) {
+            background-color: #dddddd;
+    </style>
 </head>
 <body>
 <form>
@@ -34,8 +49,9 @@
     <input type="radio" name="a">Nonbinary
     <br>
     <input type="text">
-    <p>Maximum of 250 characters.    Currently Used: 0 characters.</p>
-    <label>Which of the following products have your purchased in the last 2 months. Please check all that apply.</label><br>
+    <p>Maximum of 250 characters. Currently Used: 0 characters.</p>
+    <label>Which of the following products have your purchased in the last 2 months. Please check all that
+        apply.</label><br>
     <input type="checkbox">Product 1<br>
     <input type="checkbox">Product 2<br>
     <input type="checkbox">Product 3
@@ -52,16 +68,40 @@
     <p>Dollars Cents</p>
     <label>What features would you like to see in the new product.</label><br>
     <input type="text" style="width: 700px; height: 70px;">
-    
+    <p>Please rate your level of agreement with the following statements.</p>
     <table>
-    <tr>
-        <th> </th>
-        <th>Strongly Disagree</th>
-        <th>Disagree</th>
-        <th>Agree</th>
-        <th>Strongly Agree</th>
-    </tr>
-</table>
+        <tr>
+            <th></th>
+            <th>Strongly Disagree</th>
+            <th>Disagree</th>
+            <th>Agree</th>
+            <th>Strongly Agree</th>
+        </tr>
+        <tr>
+            <td>Our products are priced fairly.</td>
+            <td><input type="radio" name="a">1</td>
+            <td><input type="radio" name="a">2</td>
+            <td><input type="radio" name="a">3</td>
+            <td><input type="radio" name="a">4</td>
+        </tr>
+        <tr>
+            <td>Our products are high quality.</td>
+            <td><input type="radio" name="b">1</td>
+            <td><input type="radio" name="b">2</td>
+            <td><input type="radio" name="b">3</td>
+            <td><input type="radio" name="b">4</td>
+
+        </tr>
+        <tr>
+            <td>You would recommend our product to a friend or coworker.</td>
+            <td><input type="radio" name="c">1</td>
+            <td><input type="radio" name="c">2</td>
+            <td><input type="radio" name="c">3</td>
+            <td><input type="radio" name="c">4</td>
+        </tr>
+    </table>
+    <br>
+    <input type="submit" value="Submit">
 </form>
 </body>
 </html>
