@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<div>
+<input id="a">Chiều Dài
+<input id="b">Chiều Rộng
+<p id="ketqua"></p>
+<button onclick="tinhnhan()">Diện Tích Hình Chữ Nhật:</button>
+<body>
+<script>
+    function tinhnhan(){
+        console.log("ok")
+        let number1 = +document.getElementById("a").value;
+        let number2 = +document.getElementById("b").value;
+        let sum = number1* number2;
+        document.getElementById("ketqua").innerText= "kết quả là:"+ sum;
+
+    }
+</script>
+</body>
+</div>
+<br><br>
+<div>
+    <input id="c">Dài
+    <input id="d">Rộng
+    <p id="chuvi"></p>
+    <button onclick="tinhchuvi()">Chu Vi Hình Chữ Nhật</button>
+    <body>
+    <script>
+        function tinhchuvi() {
+            console.log("ok")
+            let number1 = +document.getElementById("c").value;
+            let number2 = +document.getElementById("d").value;
+            let sum = (number1 + number2)*2;
+            document.getElementById("chuvi").innerText = "kết quả là:" + sum;
+        }
+    </script>
+    </body>
+</div>
+</html>
