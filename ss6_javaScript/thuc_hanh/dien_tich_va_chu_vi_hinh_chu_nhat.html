@@ -8,10 +8,10 @@
 <input id="a">Chiều Dài
 <input id="b">Chiều Rộng
 <p id="ketqua"></p>
-<button onclick="tinhnhan()">Diện Tích Hình Chữ Nhật:</button>
+<button onclick="tinhNhan()">Diện Tích Hình Chữ Nhật:</button>
 <body>
 <script>
-    function tinhnhan(){
+    function tinhNhan(){
         console.log("ok")
         let number1 = +document.getElementById("a").value;
         let number2 = +document.getElementById("b").value;
@@ -24,18 +24,18 @@
 </div>
 <br><br>
 <div>
-    <input id="c">Dài
-    <input id="d">Rộng
-    <p id="chuvi"></p>
+    <input id="chieuDai">Dài
+    <input id="chieuRong">Rộng
+    <p id="chuVi"></p>
     <button onclick="tinhchuvi()">Chu Vi Hình Chữ Nhật</button>
     <body>
     <script>
         function tinhchuvi() {
             console.log("ok")
-            let number1 = +document.getElementById("c").value;
-            let number2 = +document.getElementById("d").value;
+            let number1 = +document.getElementById("chieuDai").value;
+            let number2 = +document.getElementById("chieuRong").value;
             let sum = (number1 + number2)*2;
-            document.getElementById("chuvi").innerText = "kết quả là:" + sum;
+            document.getElementById("chuVi").innerText = "kết quả là:" + sum;
         }
     </script>
     </body>
