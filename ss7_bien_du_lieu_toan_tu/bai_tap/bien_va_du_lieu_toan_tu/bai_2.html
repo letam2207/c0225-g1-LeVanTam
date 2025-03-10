@@ -5,12 +5,15 @@
     <title>Title</title>
 </head>
 <body>
+<input placeholder="Độ c(Celsius)" type="number" id="value">
+<button onclick="convert()" type="button">Nhập</button>
+<p id="result"></p>
 <script>
-  let doC
-  let doF
-  doC = prompt("nhập độ C")
-  doF = prompt("nhập độ F")
-
+    function convert(){
+       let giaTri=parseFloat(document.getElementById("value").value);
+        let giaTriDoF=(giaTri*9/5)+32
+        document.getElementById("result").innerText = ("Kết quả là: " + giaTriDoF);
+    }
 </script>
 </body>
 </html>

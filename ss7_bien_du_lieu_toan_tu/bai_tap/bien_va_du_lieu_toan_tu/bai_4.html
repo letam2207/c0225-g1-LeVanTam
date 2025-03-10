@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input placeholder="Nhập bán kính (R)" id="n1">
+<button onclick="convert1()">Tính</button>
+<input placeholder="Nhập đường kính (D)" id="n2">
+<button onclick="convert2()">Tính</button>
+<p id="ketQua"></p>
+<script>
+  let PI=3.1416;
+function convert1(){
+  let banKinh=parseFloat(document.getElementById("n1").value);
+  let chuViBanKinh=banKinh*2*PI;
+  document.getElementById("ketQua").innerText="Chu vi hình tròn là:"+chuViBanKinh;
+}
+function convert2(){
+  let duongKinh=parseFloat(document.getElementById("n2").value);
+  let chuViDuongKinh=duongKinh*PI;
+  document.getElementById("ketQua").innerText="Chu vi hình tròn là:"+chuViDuongKinh;
+}
+</script>
+</body>
+</html>

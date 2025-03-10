@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input placeholder="bán kính (R)" id="R" type="number">
+<button onclick="convert()" type="button">Tính</button>
+<p id="ketQua"></p>
+<script>
+  function convert(){
+    let banKinh=parseFloat(document.getElementById("R").value);
+    let PI=3.1416
+    let S=(banKinh*banKinh)*PI
+    document.getElementById("ketQua").innerText="Diện tích hình tròn bằng:"+S
+  }
+</script>
+</body>
+</html>
