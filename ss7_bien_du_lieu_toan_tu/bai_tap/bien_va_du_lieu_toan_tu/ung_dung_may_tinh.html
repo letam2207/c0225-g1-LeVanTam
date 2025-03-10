@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+  <input type="number" placeholder="nhập số thứ nhất" id="number1">
+  <input type="number" placeholder="nhập số thứ hai" id="number2">
+  <button onclick="convert()" type="button">Cộng</button>
+  <button onclick="convert2()" type="button">Trừ</button>
+<br><br>
+<h2>Result:</h2>
+<br>
+<p id="ketQua"></p>
+<script>
+  function convert() {
+    let soThuNhat=parseFloat(document.getElementById("number1").value);
+    let soThuhai=parseFloat(document.getElementById("number2").value);
+    let tongHaiSo=soThuNhat+soThuhai;
+    document.getElementById("ketQua").innerText=('đây là kết quả :'+tongHaiSo)
+  }
+  function convert2() {
+    let soThuNhat=parseFloat(document.getElementById("number1").value);
+    let soThuhai=parseFloat(document.getElementById("number2").value);
+    let hieuHaiSo=soThuNhat-soThuhai;
+    document.getElementById("ketQua").innerText=('đây là kết quả :'+hieuHaiSo)
+  }
+
+</script>
+</body>
+</html>
