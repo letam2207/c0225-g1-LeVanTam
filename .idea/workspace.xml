@@ -5,12 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03eebc95-1f8a-4d95-8acd-1e3f8b9c19bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ss7_bien_du_lieu_toan_tu/bai_tap/bien_va_du_lieu_toan_tu/bai_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss7_bien_du_lieu_toan_tu/bai_tap/bien_va_du_lieu_toan_tu/bai_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien/bai_tap/cau_lenh_switch-case.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien/bai_tap/cau_tru_dieu_kien_1/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien/bai_tap/cau_tru_dieu_kien_1/bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien/bai_tap/cau_tru_dieu_kien_1/bai_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien/bai_tap/cau_tru_dieu_kien_1/bai_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien/bai_tap/cau_tru_dieu_kien_1/bai_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien/bai_tap/cau_tru_dieu_kien_1/bai_7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien/bai_tap/tinh_chi_so_can_nang_cua_co_the.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien/thuc_hanh/kien_tra_nam_nhuan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien/thuc_hanh/luyen_tap_cau_truc_if-else.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien/thuc_hanh/luyen_tap_cau_truc_if-else_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien/thuc_hanh/luyen_tap_cau_truc_switch-case_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien/thuc_hanh/luyen_tap_cau_truc_switch-case_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien/thuc_hanh/luyen_tap_cau_truc_switch-case_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien/thuc_hanh/luyen_tap_voi_toan_tu_3_ngoi_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien/thuc_hanh/luyen_tap_voi_toan_tu_3_ngoi_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien/thuc_hanh/phuong_trinh_bac_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/bai_tap/cau_truc_dieu_kien_2/bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/bai_tap/cau_truc_dieu_kien_2/bai_10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/bai_tap/cau_truc_dieu_kien_2/bai_11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/bai_tap/cau_truc_dieu_kien_2/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/bai_tap/cau_truc_dieu_kien_2/bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/bai_tap/cau_truc_dieu_kien_2/bai_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/bai_tap/cau_truc_dieu_kien_2/bai_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/bai_tap/cau_truc_dieu_kien_2/bai_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/bai_tap/cau_truc_dieu_kien_2/bai_7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/bai_tap/cau_truc_dieu_kien_2/bai_8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/bai_tap/cau_truc_dieu_kien_2/bai_9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/thuc_hanh/bai_them.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/thuc_hanh/su_kien_chuot.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss7_bien_du_lieu_toan_tu/bai_tap/bien_va_du_lieu_toan_tu/bai_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss7_bien_du_lieu_toan_tu/bai_tap/bien_va_du_lieu_toan_tu/bai_2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ss7_bien_du_lieu_toan_tu/bai_tap/chuyen_doi_tien_te.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss7_bien_du_lieu_toan_tu/bai_tap/chuyen_doi_tien_te.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss7_bien_du_lieu_toan_tu/bai_tap/ung_dung_may_tinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss7_bien_du_lieu_toan_tu/bai_tap/ung_dung_may_tinh.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +46,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -44,6 +71,7 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;JavaScript Debug.tao_gia_dien_form_dang_ky_nguoi_dung.html.executor&quot;: &quot;Debug&quot;,
     &quot;JavaScript Debug.thuc_hanh_su_dung_toan_tu.html.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.qq.js.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -55,6 +83,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="qq.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="qq.js" working-dir="$PROJECT_DIR$/ss8_cau_truc_dieu_kien/thuc_hanh">
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -89,6 +122,11 @@
       <workItem from="1741567771329" duration="118000" />
       <workItem from="1741567896083" duration="17992000" />
       <workItem from="1741590940332" duration="2933000" />
+      <workItem from="1741595816302" duration="67000" />
+      <workItem from="1741596927403" duration="195000" />
+      <workItem from="1741601747131" duration="74000" />
+      <workItem from="1741601995032" duration="166000" />
+      <workItem from="1741654807146" duration="26587000" />
     </task>
     <servers />
   </component>

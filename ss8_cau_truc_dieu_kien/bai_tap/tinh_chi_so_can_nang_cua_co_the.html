@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Tính chỉ số cân nặng</h1>
+<input placeholder="Nhập cân nặng:(kg)" id="canNang">
+<input placeholder="Nhập chiều cao:(m)" id="chieuCao">
+<br><br>
+<button onclick="convert()" type="button">Kiểm tra</button>
+<p></p>
+<script>
+    function convert() {
+        let weight = parseFloat(document.getElementById("canNang").value);
+        let height = parseFloat(document.getElementById("chieuCao").value);
+        let BMI = weight / (height ^ 2);
+        if (BMI < 18.5) {
+            document.write("Chỉ số BMI là:" + BMI + "Underweight");
+        } else if (BMI < 25.0) {
+            document.write("Chỉ số BMI là:" + BMI + "Normal");
+        } else if (BMI < 30.0) {
+            document.write("Chỉ số BMI là:" + BMI + "Overweight");
+        } else {
+            document.write("Chỉ số BMI là:" + BMI + "Obese");
+        }
+    }
+</script>
+</body>
+</html>

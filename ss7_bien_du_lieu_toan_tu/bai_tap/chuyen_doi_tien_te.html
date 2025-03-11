@@ -31,11 +31,11 @@
 <p id="Result"></p>
 <script>
     function convert(){
-        let giaTriQuyDoi=parseFloat(document.getElementById("input").value);
+        let conversion=parseFloat(document.getElementById("input").value);
         let fromCurrency=parseFloat(document.getElementById("form").value);
         let toCurrency=parseFloat(document.getElementById("to").value)
-        let tienQuyDoi=giaTriQuyDoi*fromCurrency/toCurrency;
-        document.getElementById("Result").innerText=("Result:" + tienQuyDoi);
+        let moneyConversion=conversion*fromCurrency/toCurrency;
+        document.getElementById("Result").innerText=("Result:" + moneyConversion);
     }
 
 </script>

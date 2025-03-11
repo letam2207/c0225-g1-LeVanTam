@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let matchesPlayed = prompt("số trận chơi:")
+    let winPlayed = prompt("số trận chơi thắng:")
+    let winRate = (winPlayed / matchesPlayed) * 100         //tỉ lệ thắng
+    let mainScore = winPlayed * 5              //tổng điểm nhận được
+    if (mainScore >= 10000 && winRate >= 70) {
+        alert("bạn đạt Kim Cương")
+    } else if (mainScore >= 5000 && mainScore < 10000 && winPlayed >= 60) {
+        alert("bạn đạt Vàng")
+    } else if (mainScore >= 1000 && mainScore < 5000 && winPlayed >= 50) {
+        alert("bạn đạt Bạc")
+    } else if (mainScore < 1000 && winPlayed > 50) {
+        alert("bạn đạt Đồng")
+    } else if (matchesPlayed<5){
+        alert("bạn đạt Tân Binh")
+    }
+</script>
+</body>
+</html>
