@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button id="nutBam" onclick="batDauChoi()">Click</button>
+<script>
+    function batDauChoi() {
+        let khoangChoi = parseInt(prompt("nhập khoảng chơi:"));
+
+        let soNgauNhien = Math.floor(Math.random() * khoangChoi);
+        let soBanDoan
+
+        for (let i = 0; i <3; i++) {
+            soBanDoan = parseInt(prompt("nhập số bạn đoán"));
+            if (soBanDoan === soNgauNhien) {
+                alert("bạn đã thắng chúc mừng");
+                break;
+            } else if (soBanDoan < soNgauNhien) {
+                if (i==2){
+                    alert("bạn đã hết lượt chơi");
+                }
+                alert("nhập lại số lớn hơn");
+            } else {
+                if (i==2){
+                    alert("bạn đã hết lượt chơi");
+                }
+                alert("nhập số nhỏ hơn");
+            }
+        }
+    }
+</script>
+</body>
+</html>
