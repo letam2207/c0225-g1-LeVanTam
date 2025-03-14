@@ -5,47 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03eebc95-1f8a-4d95-8acd-1e3f8b9c19bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/thuc_hanh/su_kien_ban_phim.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/thuc_hanh/tao_form_dang_ky.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_10_loop/bai_tap/bang_cuu_chuong.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_10_loop/bai_tap/luyen_tap_vong_lap_1/bai_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_10_loop/bai_tap/luyen_tap_vong_lap_1/bai_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_10_loop/bai_tap/luyen_tap_vong_lap_1/bai_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_10_loop/bai_tap/luyen_tap_vong_lap_1/bai_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_10_loop/bai_tap/luyen_tap_vong_lap_1/bai_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_10_loop/bai_tap/luyen_tap_vong_lap_1/bai_6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_10_loop/bai_tap/luyen_tap_vong_lap_1/bai_7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_10_loop/bai_tap/luyen_tap_vong_lap_1/bao_8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_10_loop/bai_tap/luyen_tap_vong_lap_2/bai_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_10_loop/bai_tap/luyen_tap_vong_lap_2/bai_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_10_loop/bai_tap/luyen_tap_vong_lap_2/bai_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_10_loop/bai_tap/luyen_tap_vong_lap_2/bai_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_10_loop/bai_tap/so_nguyen_tô.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_10_loop/thuc_hanh/thuc_hanh_do-while.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_10_loop/thuc_hanh/thuc_hanh_while/bai_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_10_loop/thuc_hanh/thuc_hanh_while/bai_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_10_loop/thuc_hanh/thuc_hanh_while/thuc_hanh_vong_lap_long_nhau.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_10_loop/bai_tap/luyen_tap_vong_lap_2/bai_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_10_loop/thuc_hanh/bai_tap_them.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien/bai_tap/cau_lenh_switch-case.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien/bai_tap/cau_lenh_switch-case.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien/bai_tap/cau_tru_dieu_kien_1/bai_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien/bai_tap/cau_tru_dieu_kien_1/bai_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien/bai_tap/cau_tru_dieu_kien_1/bai_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien/bai_tap/cau_tru_dieu_kien_1/bai_2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien/bai_tap/cau_tru_dieu_kien_1/bai_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien/bai_tap/cau_tru_dieu_kien_1/bai_3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien/bai_tap/cau_tru_dieu_kien_1/bai_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien/bai_tap/cau_tru_dieu_kien_1/bai_4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien/bai_tap/cau_tru_dieu_kien_1/bai_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien/bai_tap/cau_tru_dieu_kien_1/bai_5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien/bai_tap/cau_tru_dieu_kien_1/bai_6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien/bai_tap/cau_tru_dieu_kien_1/bai_6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien/bai_tap/cau_tru_dieu_kien_1/bai_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien/bai_tap/cau_tru_dieu_kien_1/bai_7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/bai_tap/cau_truc_dieu_kien_2/bai_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/bai_tap/cau_truc_dieu_kien_2/bai_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/bai_tap/cau_truc_dieu_kien_2/bai_10.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/bai_tap/cau_truc_dieu_kien_2/bai_10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/bai_tap/cau_truc_dieu_kien_2/bai_11.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/bai_tap/cau_truc_dieu_kien_2/bai_11.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/bai_tap/cau_truc_dieu_kien_2/bai_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/bai_tap/cau_truc_dieu_kien_2/bai_2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/bai_tap/cau_truc_dieu_kien_2/bai_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/bai_tap/cau_truc_dieu_kien_2/bai_3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/bai_tap/cau_truc_dieu_kien_2/bai_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/bai_tap/cau_truc_dieu_kien_2/bai_4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/bai_tap/cau_truc_dieu_kien_2/bai_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/bai_tap/cau_truc_dieu_kien_2/bai_5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/bai_tap/cau_truc_dieu_kien_2/bai_6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/bai_tap/cau_truc_dieu_kien_2/bai_6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/bai_tap/cau_truc_dieu_kien_2/bai_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/bai_tap/cau_truc_dieu_kien_2/bai_7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/bai_tap/cau_truc_dieu_kien_2/bai_8.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/bai_tap/cau_truc_dieu_kien_2/bai_8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/bai_tap/cau_truc_dieu_kien_2/bai_9.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/bai_tap/cau_truc_dieu_kien_2/bai_9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/thuc_hanh/su_kien_chuot.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_2/thuc_hanh/su_kien_chuot.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,6 +112,7 @@
       <workItem from="1741865547735" duration="3606000" />
       <workItem from="1741869202143" duration="466000" />
       <workItem from="1741869684323" duration="11000" />
+      <workItem from="1741914682267" duration="8008000" />
     </task>
     <servers />
   </component>

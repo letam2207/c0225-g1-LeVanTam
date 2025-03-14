@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    while (true) {
+        let menu = parseInt(prompt("-------Quản lý sinh viên-------\n" +
+            "1. Hiển thị danh sách sinh viên\n" +
+            "2. Thêm mới sinh viên\n" +
+            "3. xóa sinh viên\n" +
+            "4. kết thúc chương trình"))
+            if (menu === 1) {
+                alert("Danh sách sinh viên");
+            } else if (menu === 2) {
+                alert("Thêm mới sinh viên");
+            } else if (menu === 3) {
+                alert("Xóa danh sách");
+            }
+            if (menu === 4) {
+                if (confirm("bạn có muốn kết thúc chương trình không")){
+                     break;
+                }
+            }
+    }
+</script>
+</body>
+</html>
