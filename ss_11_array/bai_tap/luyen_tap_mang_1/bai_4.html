@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let mang = [];
+    for (let i = 0; i < 5; i++) {
+        let so = +prompt("nhập giá trị mảng: " + (i + 1))
+        mang.push(so)
+    }
+    alert("mảng bạn vừa nhập là: " + mang)
+    for (let i = 0; i < mang.length / 2; i++) {
+        let mangDaoLai = mang[i];
+        mang[i] = mang[mang.length - 1 - i];
+        mang[mang.length - 1 - i] = mangDaoLai;
+    }
+    alert("đảo lại mảng trên:" + mang)
+</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let mang = [32, 45, 78, 19, 73, 6, 83, 22, 45, 10];
+    alert("mảng của bạn là: " + mang);
+    let v = parseInt(prompt("Nhập số cần xóa trong mảng: "));
+    let thuTu = -1;
+    for (let i = 0; i < mang.length; i++) {
+        if (mang[i] === v) {
+            thuTu = i;
+            break;
+        }
+    }
+    if (thuTu !== -1) {
+        for (let i = thuTu; i < mang.length - 1; i++) {
+            mang[i] = mang[i + 1];
+        }
+        mang[mang.length - 1] = 0;
+    }
+
+    alert("mảng sau khi xóa là: "+mang);
+
+</script>
+</body>
+</html>

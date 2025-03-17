@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let mang = [];
+    for (let i = 0; i < 5; i++) {
+        let so = +prompt("nhập phần tử " + (i + 1));
+        mang.push(so);
+    }
+    alert("bảng bạn vừa nhập là: " + mang)
+    let max = mang[0]
+    for (let i = 1; i < mang.length; i++) {
+        if (max < mang[i]) {
+            max = mang[i]
+        }
+    }
+    alert("giá trị lớn nhất trong mảng là: " + max)
+    let giaTriTrungBinh = 0
+    for (let i = 0; i < mang.length; i++) {
+        giaTriTrungBinh = (mang[0] + mang[1] + mang[2] + mang[3] + mang[4]) / 5
+    }
+    alert("giá trị trung bình của dãy là: " + giaTriTrungBinh)
+</script>
+</body>
+</html>

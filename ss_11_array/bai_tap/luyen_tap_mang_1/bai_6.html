@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let mang=[];
+  for (let i = 0; i <10; i++) {
+    let soNhap=prompt("nhập phần tử mảng: "+(i+1))
+    mang.push(soNhap)
+  }
+  alert("mảng vừa nhập là: "+mang)
+  for (let i = 0; i <mang.length; i++) {
+    if (mang[i]==='V'){
+      alert("V is in the array")
+      break;
+    }else {
+      alert("V is not in the array")
+      break;
+    }
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let number="025468";
+  let number2=[];
+  for (let i = 0; i <number.length; i++) {
+    number2.push(number[i])
+      if (i<number.length-1&&number[i]%2===0&&number[i+1]%2===0){
+         number2.push("-")
+      }
+  }
+  alert(number2.join(""))
+</script>
+</body>
+</html>

@@ -5,9 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03eebc95-1f8a-4d95-8acd-1e3f8b9c19bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ss_10_loop/bai_tap/luyen_tap_vong_lap_2/bai_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_10_loop/thuc_hanh/bai_tap_them.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_10_loop/bai_tap/bai_tap_them/bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_10_loop/bai_tap/bai_tap_them/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_10_loop/bai_tap/bai_tap_them/bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_11_array/bai_tap/bai_tap_them.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_11_array/bai_tap/luyen_tap_mang_1/bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_11_array/bai_tap/luyen_tap_mang_1/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_11_array/bai_tap/luyen_tap_mang_1/bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_11_array/bai_tap/luyen_tap_mang_1/bai_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_11_array/bai_tap/luyen_tap_mang_1/bai_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_11_array/bai_tap/luyen_tap_mang_1/bai_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_11_array/bai_tap/luyen_tap_mang_1/bai_7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_11_array/bai_tap/luyen_tap_mang_1/bai_8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_11_array/bai_tap/luyen_tap_mang_1/bai_9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_11_array/bai_tap/su_dung_cac_ham_co_san_cua_mang/bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_11_array/bai_tap/su_dung_cac_ham_co_san_cua_mang/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_11_array/bai_tap/su_dung_cac_ham_co_san_cua_mang/bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_11_array/thuc_hanh/bai_them.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_11_array/thuc_hanh/dao_nguoc_mang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_11_array/thuc_hanh/tao_ban_co_caro_don_gian.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_11_array/thuc_hanh/tao_vao_tuong_tac_mang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_11_array/thuc_hanh/tim_gia_tri_lon_nhat_trong_mang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_11_array/thuc_hanh/tim_gia_tri_trong_mang.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss_10_loop/bai_tap/luyen_tap_vong_lap_2/bai_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss_10_loop/bai_tap/luyen_tap_vong_lap_2/bai_5.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,22 +64,25 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.Unnamed.executor&quot;: &quot;Debug&quot;,
     &quot;JavaScript Debug.tao_gia_dien_form_dang_ky_nguoi_dung.html.executor&quot;: &quot;Debug&quot;,
     &quot;JavaScript Debug.thuc_hanh_su_dung_toan_tu.html.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.qq.js.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/codegym/module1/ss_11_array/bai_tap/luyen_tap_mang_1/bai_1.html&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RunManager">
-    <configuration name="qq.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="qq.js" working-dir="$PROJECT_DIR$/ss8_cau_truc_dieu_kien/thuc_hanh">
+    <configuration name="Unnamed" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/module1/ss_11_array/bai_tap/luyen_tap_mang_1/bai_1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
   </component>
@@ -112,7 +136,11 @@
       <workItem from="1741865547735" duration="3606000" />
       <workItem from="1741869202143" duration="466000" />
       <workItem from="1741869684323" duration="11000" />
-      <workItem from="1741914682267" duration="8008000" />
+      <workItem from="1741914682267" duration="21966000" />
+      <workItem from="1742018728800" duration="1114000" />
+      <workItem from="1742034771722" duration="3000" />
+      <workItem from="1742173079159" duration="26343000" />
+      <workItem from="1742210049212" duration="3467000" />
     </task>
     <servers />
   </component>

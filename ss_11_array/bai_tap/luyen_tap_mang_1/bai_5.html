@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let mang = [];
+    let soLuongNguyenAm = 0
+    let chuoi = prompt("nhập chuỗi :")
+    mang = chuoi.split("");
+    alert("chuỗi bạn vừa nập là: " + mang)
+    for (let i = 0; i < mang.length; i++) {
+        if (mang[i] === 'u' || mang[i] === 'e' || mang[i] === 'o' || mang[i] === 'a' || mang[i] === 'i') {
+            soLuongNguyenAm++;
+        }
+    }
+    alert("số lượng nguyên âm của chuỗi trên là: " + soLuongNguyenAm)
+</script>
+</body>
+</html>

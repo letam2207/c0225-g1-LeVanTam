@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let mang1=[];
+  for (let i = 0; i <10; i++) {
+    let soNhap=prompt("nhập phần tử mảng a: "+(i+1))
+    mang1.push(soNhap)
+  }
+  alert("mảng a là: "+mang1)
+  let mang2=[];
+  for (let i = 0; i <10; i++) {
+    let soNhap=prompt("nhập phần tử mảng b: "+(i+1))
+    mang2.push(soNhap)
+  }
+  alert("mảng b là: "+mang2)
+  let mang3=mang1.concat(mang2)
+  alert("mảng c là: "+mang3)
+</script>
+</body>
+</html>

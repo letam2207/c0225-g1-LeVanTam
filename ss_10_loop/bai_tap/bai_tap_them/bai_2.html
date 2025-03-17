@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    while(true){
+    let nhapThang = parseInt(prompt("Nhập tháng: "));
+    let nhapNam = parseInt(prompt("Nhập năm: "));
+    if (nhapThang === 1 ||
+        nhapThang === 3 ||
+        nhapThang === 5 ||
+        nhapThang === 7 ||
+        nhapThang === 8 ||
+        nhapThang === 10 ||
+        nhapThang === 12) {
+        alert("Có: 31 ngày")
+    } else if (nhapThang === 4 || nhapThang === 6
+        || nhapThang === 9 || nhapThang === 11) {
+        alert("Có: 30 ngày")
+    } else if (nhapThang === 2 && nhapNam % 4 === 0 ||
+        nhapNam % 400 === 0 || nhapNam % 100 === 0) {
+        alert("Có: 29 ngày")
+    } else if (nhapThang === 2) {
+        alert("Có: 28 ngày")
+    }else {
+        alert("Nhập tháng không phù hợp!")
+    }
+    }
+</script>
+</body>
+</html>

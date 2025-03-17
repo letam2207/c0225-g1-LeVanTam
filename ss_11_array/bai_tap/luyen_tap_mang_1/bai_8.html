@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let mang=[];
+  for (let i = 0; i <10; i++) {
+    let soNhap=prompt("nhập phần tử mảng: "+(i+1))
+    mang.push(soNhap)
+  }
+  alert("mảng vừa nhập là: "+mang)
+  mang.sort(function (x,y){
+    return y-x;
+  })
+ alert(mang)
+</script>
+</body>
+</html>
