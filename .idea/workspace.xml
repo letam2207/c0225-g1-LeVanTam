@@ -5,30 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03eebc95-1f8a-4d95-8acd-1e3f8b9c19bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ss_10_loop/bai_tap/bai_tap_them/bai_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_10_loop/bai_tap/bai_tap_them/bai_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_10_loop/bai_tap/bai_tap_them/bai_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_11_array/bai_tap/bai_tap_them.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_11_array/bai_tap/luyen_tap_mang_1/bai_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_11_array/bai_tap/luyen_tap_mang_1/bai_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_11_array/bai_tap/luyen_tap_mang_1/bai_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_11_array/bai_tap/luyen_tap_mang_1/bai_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_11_array/bai_tap/luyen_tap_mang_1/bai_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_11_array/bai_tap/luyen_tap_mang_1/bai_6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_11_array/bai_tap/luyen_tap_mang_1/bai_7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_11_array/bai_tap/luyen_tap_mang_1/bai_8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_11_array/bai_tap/luyen_tap_mang_1/bai_9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_11_array/bai_tap/su_dung_cac_ham_co_san_cua_mang/bai_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_11_array/bai_tap/su_dung_cac_ham_co_san_cua_mang/bai_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_11_array/bai_tap/su_dung_cac_ham_co_san_cua_mang/bai_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_11_array/thuc_hanh/bai_them.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_11_array/thuc_hanh/dao_nguoc_mang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_11_array/thuc_hanh/tao_ban_co_caro_don_gian.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_11_array/thuc_hanh/tao_vao_tuong_tac_mang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_11_array/thuc_hanh/tim_gia_tri_lon_nhat_trong_mang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_11_array/thuc_hanh/tim_gia_tri_trong_mang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_11_array/bai_tap/luyen_tap_mang_2/bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_11_array/bai_tap/luyen_tap_mang_2/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_11_array/bai_tap/luyen_tap_mang_2/bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_11_array/bai_tap/luyen_tap_mang_2/bai_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_11_array/bai_tap/luyen_tap_mang_2/bai_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_11_array/bai_tap/tu_dien.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_11_array/thuc_hanh/bai_them_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_11_array/thuc_hanh/bai_them_2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss_10_loop/bai_tap/luyen_tap_vong_lap_2/bai_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss_10_loop/bai_tap/luyen_tap_vong_lap_2/bai_5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss_11_array/bai_tap/luyen_tap_mang_1/bai_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss_11_array/bai_tap/luyen_tap_mang_1/bai_1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +75,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.25659.40" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.26053.12" />
       </set>
     </attachedChunks>
   </component>
@@ -140,7 +126,9 @@
       <workItem from="1742018728800" duration="1114000" />
       <workItem from="1742034771722" duration="3000" />
       <workItem from="1742173079159" duration="26343000" />
-      <workItem from="1742210049212" duration="3467000" />
+      <workItem from="1742210049212" duration="3738000" />
+      <workItem from="1742259458361" duration="5419000" />
+      <workItem from="1742264954258" duration="8770000" />
     </task>
     <servers />
   </component>

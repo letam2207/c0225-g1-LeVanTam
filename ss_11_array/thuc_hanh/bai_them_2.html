@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let mang = [];
+    let tongPhanTu = 0;
+    let n = +prompt("nhập độ dài mảng: ");
+    while (n <= 0 || n >= 20) {
+        alert("nhập giá trị đúng");
+        n = prompt("nhập độ dài mảng: ");
+    }
+    for (let i = 0; i <= n; i++) {
+        let nhapSo = +prompt("nhập phần tử số: " + (i + 1));
+        mang.push(nhapSo);
+    }
+    alert("mảng vừa nhập là: "+mang)
+    for (let i = 0; i <mang.length; i++) {
+    if (Math.sqrt(mang[i]) === 0) {
+        tongPhanTu++;
+    }
+    }
+    alert("tổng các phần tử thỏa mãn là: " + tongPhanTu)
+</script>
+</body>
+</html>

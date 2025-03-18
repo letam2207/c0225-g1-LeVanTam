@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let mang = [];
+    let sum = 0;
+    let n = +prompt("nhập độ dài của mảng: ")
+     while(n <= 0 || n >= 20) {
+         alert("nhập sai nhập lại!")
+         n = +prompt("nhập độ dài của mảng: ")
+     }
+        for (let i = 0; i <= n; i++) {
+            let nhapPhanTu = +prompt("nhập phần tử số :" + (i + 1));
+            mang.push(nhapPhanTu);
+        }
+        alert("mảng vừa nhập là :" + mang);
+        for (let i = 0; i < mang.length; i++) {
+            if (i % 2 === 0 && mang[i] % 3 === 0) {
+                sum += mang[i]
+            }
+        }
+        alert("tổng các phần tử vị trí chẵn và chia hết cho 3 là: " + sum)
+
+</script>
+</body>
+</html>

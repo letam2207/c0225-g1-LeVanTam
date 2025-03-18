@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let mang = [];
+    let soLong = 0;
+    for (let i = 0; i < 9; i++) {
+        let nhapPhanTu = prompt("nhập kí tự thêm vào mảng: ");
+        mang.push(nhapPhanTu);
+    }
+    alert("mảng vừa nhập là :" + mang);
+    for (let i = 0; i < mang.length; i++) {
+        if (!isNaN(mang[i])) {
+            soLong++;
+        }
+    }
+    alert(soLong);
+</script>
+</body>
+</html>

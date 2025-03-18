@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<h2>Từ Điển</h2>
+<form onsubmit="return dich(event)">
+    <input type="text" id="nhapTiengAnh" placeholder="Nhập từ tiếng Anh">
+    <button type="submit">Dịch</button>
+    <br><br>
+    <input type="text" id="dichNghia" placeholder="Nghĩa tiếng Việt" readonly>
+</form>
+
+<script>
+    function dich(event) {
+        event.preventDefault();
+
+        let tuTiengAnh = ["banana", "orange", "lychee", "mango", "peach"];
+        let nghiaTiengViet = ["Quả chuối", "Quả cam", "Quả vải", "Quả xoài", "Quả đào"];
+
+        let nhapTiengAnh = document.getElementById("nhapTiengAnh").value.toLowerCase();
+        let dichNghia = document.getElementById("dichNghia");
+
+        let ketQua = "Không tìm thấy từ này!";
+
+        for (let i = 0; i < tuTiengAnh.length; i++) {
+            if (nhapTiengAnh === tuTiengAnh[i]) {
+                ketQua = nghiaTiengViet[i];
+                break;
+            }
+        }
+
+        dichNghia.value = ketQua;
+    }
+</script>
+</body>
+</html>
