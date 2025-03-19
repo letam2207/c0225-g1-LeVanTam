@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let mang = [];
+    let nhapDoDaiMang = +prompt("nhập độ dài mảng n: ");
+    for (let i = 0; i < nhapDoDaiMang; i++) {
+        let nhapPhanTu = +prompt("nhập phần tử của mảng: ");
+        mang.push(nhapPhanTu);
+    }
+    alert("mảng vừa nhập là : " + mang)
+    let check = true;
+    for (let i = 0; i < mang.length / 2; i++) {
+        if (mang[i] !== mang[mang.length - 1 - i]) {
+            check = false;
+            break;
+        }
+
+    }
+    if (check){
+        alert("OK")
+    }else {
+        alert("NO")
+    }
+</script>
+</body>
+</html>

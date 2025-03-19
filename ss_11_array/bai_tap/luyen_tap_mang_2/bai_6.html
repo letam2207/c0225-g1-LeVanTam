@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    mang = [];
+    for (let i = 0; i < 5; i++) {
+        let nhapChuoi = prompt("nhập phần tử mảng: " + (i + 1));
+        mang.push(nhapChuoi);
+    }
+    alert("mảng vừa nhập là: " + mang);
+    for (let i = 0; i < mang.length; i++) {
+        mang[i] = mang[i].replace(/-/g, "_");
+    }
+    alert("mảng sau khi sửa là: "+mang);
+</script>
+</body>
+</html>

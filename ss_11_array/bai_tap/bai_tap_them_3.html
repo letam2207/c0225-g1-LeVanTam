@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let nhapChuoi = prompt("nhập chuỗi với dạng xx/yy: ");
+    alert("chuỗi bạn vừa nhập là: " + nhapChuoi);
+    let arr = nhapChuoi.split("/");
+    alert(arr);
+    if (arr.length === 2) {
+        if (isNaN(arr[0]) || isNaN(arr[1]) || arr[1] === 0 || arr[0] === "") {
+            alert("not")
+        } else {
+            let uocChung = 0;
+            let soTu = arr[0];
+            let soMau = arr[1];
+            let temp = soTu;
+            if (soTu > soMau) {
+                temp = soMau;
+            }
+            for (let i = 1; i <= temp; i++) {
+                if (soTu % i === 0 && soMau % i === 0) {
+                    uocChung = i;
+                }
+            }
+            if (soTu % soMau === 0) {
+                let giaTriToiGiam = soTu / soMau;
+                alert("giá trị tối giảm là: " + giaTriToiGiam)
+            } else {
+                let giaTriToiGiamTu = soTu / uocChung;
+                let giaTriToiGiamMau = soMau / uocChung;
+                alert("giá trị tối giảm là: " + giaTriToiGiamTu + "/" + giaTriToiGiamMau);
+            }
+        }
+    } else {
+        alert("not")
+    }
+
+
+</script>
+</body>
+</html>

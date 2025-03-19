@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let mang = [];
+    let n = +prompt("nhập độ dài mảng n (n<=20): ");
+    for (let i = 0; i < n; i++) {
+        if (n <= 20) {
+            let nhapPhanTu = +prompt("nhập phần tử mảng:");
+            mang.push(nhapPhanTu);
+        } else {
+            alert("n không thỏa mãn!")
+            break;
+        }
+    }
+    alert("mảng vừa nhập là: " + mang);
+    let delta = mang[1] - mang[0];
+    let check = true;
+    for (let i = 0; i < mang.length - 1; i++) {
+        if (mang[i + 1] - mang[i] !== delta) {
+            check = false;
+            break;
+        }
+    }
+    if (check){
+        alert("OK");
+    }else {
+        alert("NO");
+    }
+</script>
+</body>
+</html>
