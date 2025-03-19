@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let nhapSoThuNhat = +prompt("nhập số thứ 1: ");
+    let nhapSoThuHai = +prompt("nhập số thứ 2: ");
+    let nhapSoThuBa = +prompt("nhập số thứ 3: ");
+
+    function timGiaTriNhoNhat(x, y, z) {
+        if (x > y && x > z) {
+            alert(x)
+        } else if (y > z) {
+            alert(y)
+        } else {
+            alert(z)
+        }
+    }
+
+    timGiaTriNhoNhat(nhapSoThuNhat, nhapSoThuHai, nhapSoThuBa);
+</script>
+</body>
+</html>

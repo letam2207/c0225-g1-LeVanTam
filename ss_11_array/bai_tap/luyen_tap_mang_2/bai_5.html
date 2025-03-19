@@ -6,9 +6,24 @@
 </head>
 <body>
 <script>
-  let nhapChuoi1=prompt("nhập chuỗi 1: ")
-  let nhapChuoi2=prompt("nhập chuỗi 2: ")
-
+    let nhapChuoi1 = prompt("nhập chuỗi 1: ");
+    let nhapChuoi2 = prompt("nhập chuỗi 2: ");
+    alert("mảng 1 là: " + nhapChuoi1 + " mảng 2 là: " + nhapChuoi2);
+    if (nhapChuoi1.length !== nhapChuoi2.length) {
+        alert("hai mảng trên không giống nhau!");
+    } else {
+        for (let i = 0; i < nhapChuoi1.length; i++) {
+            for (let j = 0; j < nhapChuoi2.length; j++) {
+                if (nhapChuoi1[i] !== nhapChuoi2[j]) {
+                    alert("hai mảng trên không giống nhau!");
+                    break;
+                } else {
+                    alert("hai mảng trên giống nhau!");
+                    break;
+                }
+            }
+        }
+    }
 </script>
 </body>
 </html>

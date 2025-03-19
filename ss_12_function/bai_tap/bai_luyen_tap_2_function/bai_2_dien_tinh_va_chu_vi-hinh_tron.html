@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let nhapBanKinh=+prompt("nhập bán kính: ");
+  let S=0;
+  function tinhDienTich(banKinh){
+         S=Math.PI*(banKinh*banKinh);
+  }
+  tinhDienTich(nhapBanKinh);
+  alert("Diện tích hình tròn là: "+S);
+  let V=0;
+  function chuViHinhTron(banKinh){
+          V=2*Math.PI*banKinh;
+  }
+  chuViHinhTron(nhapBanKinh);
+  alert("bán kính hình tròn là: "+V);
+</script>
+</body>
+</html>
