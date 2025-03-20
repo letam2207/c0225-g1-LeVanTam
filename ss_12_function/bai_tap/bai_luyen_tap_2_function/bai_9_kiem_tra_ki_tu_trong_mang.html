@@ -5,13 +5,32 @@
     <title>Title</title>
 </head>
 <body>
-<script>
-    let nhapMang=prompt("nhập mảng : ")
-    let nhapSo=prompt("nhập số : ")
-function kiemTraKiTuTrongMang(mang,kiTu){
 
-}
-kiemTraKiTuTrongMang(nhapMang,nhapSo)
-</script>
 </body>
+<script>
+    function kiemTraKiTuMang(chuoi, phanTu) {
+        let count = 0;
+        for (let i = 0; i < chuoi.length; i++) {
+            let temp = chuoi.slice(i, i + 1);
+            if (phanTu === temp) {
+                count++;
+            }
+        }
+        if (count > 0) {
+            return count;
+        }
+        return -1;
+    }
+
+    let str1 = prompt("nhập chuỗi : ");
+    alert("chuỗi bạn vừa nhập là: "+str1)
+    let char = prompt("nhập phần tử kiểm tra : ");
+    let result = kiemTraKiTuMang(str1, char);
+    if (result === -1) {
+        alert(`kí tự "${char}" không có trong chuỗi `);
+    } else {
+        alert(`kí tự "${char}" xuất hiện ${result} lần trong chuỗi`);
+    }
+
+</script>
 </html>

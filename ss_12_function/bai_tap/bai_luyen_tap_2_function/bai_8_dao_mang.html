@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Đảo Mảng</title>
+</head>
+<body>
+<script>
+  let nhapMang = prompt("Nhập mảng cách nhau bằng dấu phẩy: ");
+  let mang = nhapMang.split(",").map(Number);
+
+  function daoMang(mang) {
+    for (let i = 0; i < Math.floor(mang.length / 2); i++) {
+      let temp = mang[i];
+      mang[i] = mang[mang.length - 1 - i];
+      mang[mang.length - 1 - i] = temp;
+    }
+    return mang;
+  }
+
+  alert("Mảng sau khi đảo: " + daoMang(mang).join(", "));
+</script>
+</body>
+</html>

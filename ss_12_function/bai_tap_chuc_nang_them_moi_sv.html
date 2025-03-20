@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let danhSachSinhVien = ["Lê Văn Tâm", "Nguyễn Văn Minh", "Trần Văn Nam"];
+    while (true) {
+        let menu = parseInt(prompt("-------Quản lý sinh viên-------\n" +
+            "1. Hiển thị danh sách sinh viên\n" +
+            "2. Thêm mới sinh viên\n" +
+            "3. xóa sinh viên\n" +
+            "4. kết thúc chương trình"))
+        if (menu === 1) {
+            hienThiDanhSach();
+        } else if (menu === 2) {
+            themMoiSinhVien();
+        } else if (menu === 3) {
+            xoaTenSinhVien();
+        }
+        if (menu === 4) {
+            if (confirm("bạn có muốn kết thúc chương trình không")) {
+                break;
+            }
+        }
+    }
+
+    function hienThiDanhSach() {
+        if (danhSachSinhVien.length === 0) {
+            alert("Danh sách sinh viên trống.");
+        } else {
+            let studentLits = "Danh sách sinh viên: \n";
+            for (let i = 0; i < danhSachSinhVien.length; i++) {
+                studentLits += `${i + 1}. ${danhSachSinhVien[i]}\n`;
+            }
+
+            alert(studentLits);
+        }
+    }
+
+    function themMoiSinhVien() {
+        let tenSinhVien = prompt("nhập tên sinh viên muốn thêm mới: ")
+        danhSachSinhVien.push(tenSinhVien);
+        hienThiDanhSach();
+    }
+
+    function xoaTenSinhVien() {
+        let studentLits = "Danh sách sinh viên: \n";
+        for (let i = 0; i < danhSachSinhVien.length; i++) {
+            studentLits += `${i + 1}. ${danhSachSinhVien[i]}\n`;
+
+        }
+        let viTri = prompt(studentLits);
+        let comf= confirm("bạn có muốn xóa tên sinh viên này không?")
+        if (comf){
+            danhSachSinhVien.splice(viTri-1,1);
+        }
+        hienThiDanhSach();
+    }
+</script>
+</body>
+</html>

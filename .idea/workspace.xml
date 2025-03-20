@@ -5,30 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03eebc95-1f8a-4d95-8acd-1e3f8b9c19bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ss_11_array/bai_tap/bai_tap_them_2_array.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_11_array/bai_tap/bai_tap_them_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_11_array/bai_tap/bai_tap_them_array.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_11_array/bai_tap/luyen_tap_mang_2/bai_6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_12_function/bai_tap/bai_luyen_tap_1_function/bai_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_12_function/bai_tap/bai_luyen_tap_1_function/bai_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_12_function/bai_tap/bai_luyen_tap_1_function/bai_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_12_function/bai_tap/bai_luyen_tap_1_function/bai_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_12_function/bai_tap/bai_luyen_tap_1_function/bai_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_12_function/bai_tap/bai_luyen_tap_2_function/bai_1_tinh_binh_phuong.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_12_function/bai_tap/bai_luyen_tap_2_function/bai_2_dien_tinh_va_chu_vi-hinh_tron.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_12_function/bai_tap/bai_luyen_tap_2_function/bai_3_tinh_gia_thua.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_12_function/bai_tap/bai_luyen_tap_2_function/bai_4_kiem_tra_ham_co_phai_la_so_khong.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_12_function/bai_tap/bai_luyen_tap_2_function/bai_5_tim_gia_tri_nho_nhat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_12_function/bai_tap/bai_luyen_tap_2_function/bai_6_kiem_tra_so_nguyen_duong.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_12_function/bai_tap/bai_luyen_tap_2_function/bai_7_doi_cho_hai_so_nguyen.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_12_function/bai_tap/chuyen_doi_feet_sang_meters.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_12_function/bai_tap/ham_kiem_tra_so_nguyen_to.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_12_function/thuc_hanh/chuyen_doi_nhiet_do.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_12_function/thuc_hanh/tao_va_goi_ham.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_12_function/thuc_hanh/tim_gia_tri_nho_nhat_trong_mang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_12_function/bai_tap/bai_luyen_tap_2_function/bai_8_dao_mang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_12_function/bai_tap/bai_luyen_tap_2_function/ung_dung_quan_ly_san_pham_bang_ham.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_12_function/bai_tap/ung_dung_quan_ly_sinh_vien_bang_ham_demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss_12_function/bai_tap_chuc_nang_them_moi_sv.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss_11_array/bai_tap/luyen_tap_mang_2/bai_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss_11_array/bai_tap/luyen_tap_mang_2/bai_4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss_11_array/bai_tap/luyen_tap_mang_2/bai_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss_11_array/bai_tap/luyen_tap_mang_2/bai_5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss_12_function/bai_tap/bai_luyen_tap_2_function/bai_9_kiem_tra_ki_tu_trong_mang.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss_12_function/bai_tap/bai_luyen_tap_2_function/bai_9_kiem_tra_ki_tu_trong_mang.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,11 +132,42 @@
       <workItem from="1742264954258" duration="22107000" />
       <workItem from="1742298690437" duration="109000" />
       <workItem from="1742303914817" duration="2557000" />
-      <workItem from="1742348072032" duration="19188000" />
+      <workItem from="1742348072032" duration="23978000" />
+      <workItem from="1742390645109" duration="2268000" />
+      <workItem from="1742432692317" duration="17128000" />
     </task>
+    <task id="LOCAL-00001" summary="nop bai tap">
+      <option name="closed" value="true" />
+      <created>1742377978699</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1742377978699</updated>
+    </task>
+    <task id="LOCAL-00002" summary="nop bai tap">
+      <option name="closed" value="true" />
+      <created>1742377993743</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1742377993743</updated>
+    </task>
+    <task id="LOCAL-00003" summary="nop bai tap">
+      <option name="closed" value="true" />
+      <created>1742377999152</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1742377999152</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="nop bai tap" />
+    <option name="LAST_COMMIT_MESSAGE" value="nop bai tap" />
   </component>
 </project>
