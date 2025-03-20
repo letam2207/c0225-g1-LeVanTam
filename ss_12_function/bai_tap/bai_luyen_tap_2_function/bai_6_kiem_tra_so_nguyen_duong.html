@@ -6,6 +6,7 @@
 </head>
 <body>
 <script>
+
 let nhapSo= +prompt("nhập số cần kiểm tra : ");
 function kiemTraSoNguyenDuong(soNguyen){
   if (soNguyen>0&&soNguyen%1===0){
@@ -13,7 +14,10 @@ function kiemTraSoNguyenDuong(soNguyen){
   }
   return false;
 }
+
 alert(kiemTraSoNguyenDuong(nhapSo));
+alert(kiemTraSoNguyenDuong(0))
+
 </script>
 </body>
 </html>
