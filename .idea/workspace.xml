@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03eebc95-1f8a-4d95-8acd-1e3f8b9c19bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ss_12_function/bai_tap/bai_luyen_tap_2_function/bai_8_dao_mang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_12_function/bai_tap/bai_luyen_tap_2_function/ung_dung_quan_ly_san_pham_bang_ham.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_12_function/bai_tap/ung_dung_quan_ly_sinh_vien_bang_ham_demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss_12_function/bai_tap_chuc_nang_them_moi_sv.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss_12_function/bai_tap/bai_luyen_tap_2_function/bai_9_kiem_tra_ki_tu_trong_mang.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss_12_function/bai_tap/bai_luyen_tap_2_function/bai_9_kiem_tra_ki_tu_trong_mang.html" afterDir="false" />
-    </list>
+    <list default="true" id="03eebc95-1f8a-4d95-8acd-1e3f8b9c19bd" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -134,7 +127,7 @@
       <workItem from="1742303914817" duration="2557000" />
       <workItem from="1742348072032" duration="23978000" />
       <workItem from="1742390645109" duration="2268000" />
-      <workItem from="1742432692317" duration="17128000" />
+      <workItem from="1742432692317" duration="17328000" />
     </task>
     <task id="LOCAL-00001" summary="nop bai tap">
       <option name="closed" value="true" />
