@@ -1,10 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Kiểm tra mảng số nguyên tố</title>
 </head>
 <body>
-$END$
+<script>
+    function nhapMang() {
+        let arr = [];
+        let nhapDoDaiMang = +prompt("Nhập độ dài mảng n: ");
+
+        for (let i = 0; i < nhapDoDaiMang; i++) {
+            let nhapPhanTu = +prompt(`Nhập phần tử thứ ${i + 1}: `);
+            arr.push(nhapPhanTu);
+        }
+
+        alert("Mảng bạn vừa nhập là: " + arr);
+        return arr;
+    }
+
+    function laSoNguyenTo(num) {
+        if (num < 2) return false;
+        for (let j = 2; j <= Math.sqrt(num); j++) {
+            if (num % j === 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+    function kiemTraMangNguyenTo(arr) {
+        let tatCaLaNguyenTo = arr.every(laSoNguyenTo);  // Kiểm tra toàn bộ mảng
+        if (tatCaLaNguyenTo) {
+            alert("true");
+        } else {
+            alert("false");
+        }
+    }
+    let mang = nhapMang();
+    kiemTraMangNguyenTo(mang);
+</script>
 </body>
 </html>

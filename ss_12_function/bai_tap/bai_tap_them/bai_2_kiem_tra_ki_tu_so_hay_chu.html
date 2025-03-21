@@ -1,10 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-$END$
+
+<script>
+    let mang = [];
+
+    function kiemTraKiTu(arr) {
+        let nhapDoDaiMang = +prompt("nhập độ dài mảng n: ");
+        for (let i = 0; i < nhapDoDaiMang; i++) {
+            let nhapPhanTu = +prompt(`Nhập phần tử thứ ${i + 1}: `);
+            mang.push(nhapPhanTu);
+        }
+        alert("mảng bạn vừa nhập là: " + mang);
+        if (arr.every(char => /^[a-zA-Z]+$/.test(char))) {
+            alert("1");
+        } else if (arr.every(item => typeof item === 'number')) {
+            alert("0");
+        } else {
+            alert("-1");
+        }
+
+    }
+
+    kiemTraKiTu(mang);
+</script>
 </body>
 </html>

@@ -1,10 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Check Coordinates</title>
 </head>
 <body>
-$END$
+<script>
+    let mang1 = prompt("Nhập mảng 1 (các số cách nhau bằng dấu ,):").split(",").map(Number);
+    let mang2 = prompt("Nhập mảng 2 (các số cách nhau bằng dấu ,):").split(",").map(Number);
+
+    function kiemTraToaDo(x, y) {
+        if (x.length !== y.length) {
+            return false;
+        }
+        for (let i = 0; i < x.length; i++) {
+            if (y[i] !== 2 * x[i] + 1) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    let ketQua = kiemTraToaDo(mang1, mang2);
+    alert("Kết quả kiểm tra: " + ketQua);
+</script>
 </body>
 </html>
