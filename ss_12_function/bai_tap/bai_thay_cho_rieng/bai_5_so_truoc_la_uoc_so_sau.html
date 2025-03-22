@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let nhapPhanTuMang = prompt("Nhập các phần tử trong mảng cách nhau bằng dấu cách:");
+    let mang = nhapPhanTuMang.split(" ");
+    alert("mang vừa nhập là: "+mang);
+    function kiemTraMang(mang) {
+        for (let i = 0; i < mang.length - 1; i++) {
+            if (mang[i + 1] % mang[i] !== 0) {
+                alert("NO");
+                return;
+            }
+        }
+        alert("OK");
+    }
+
+    kiemTraMang(mang);
+</script>
+</body>
+</html>

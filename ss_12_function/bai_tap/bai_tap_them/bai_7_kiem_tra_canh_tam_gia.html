@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let nhapSo1 = +prompt("nhập cạnh thứ nhất: ");
+    let nhapSo2 = +prompt("nhập cạnh thứ hai: ");
+    let nhapSo3 = +prompt("nhập cạnh thứ ba: ");
+
+    function kiemTraCanhTamGiac(x, y, z) {
+        while (true){
+        if ((x * x) + (y * y) === (z * z)) {
+            alert("đây là cạnh tam giác vuông");
+            break;
+        } else if (x + y > z && x + z > y && y + z > x) {
+            alert("đây là cạnh tam giác");
+            break;
+        } else {
+            alert("đây không phải cạnh tam giác");
+            break;
+        }
+        }
+    }
+    kiemTraCanhTamGiac(nhapSo1, nhapSo2, nhapSo3);
+</script>
+</body>
+</html>

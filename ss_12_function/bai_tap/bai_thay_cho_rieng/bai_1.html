@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let mang = [];
+    function tinhTongPhanTuChan() {
+        let nhapDoDaiMang = +prompt("nhập độ dài mảng n: ");
+        for (let i = 0; i < nhapDoDaiMang; i++) {
+            let nhapPhanTu = +prompt(`Nhập phần tử thứ ${i + 1}: `);
+            mang.push(nhapPhanTu);
+        }
+        alert("mảng vừa nhập là: " + mang);
+        let sum = 0;
+        for (let i = 0; i < mang.length; i++) {
+            if (mang[i] % 2 === 0 && mang[i] % 10 !== 0) {
+                sum += mang[i];
+            }
+        }
+        alert("tổng số chẵn trong chuỗi là: " + sum)
+
+    }
+
+    tinhTongPhanTuChan();
+</script>
+</body>
+</html>

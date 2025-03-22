@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let nhapChuoi = prompt("nhập mảng: ")
+     alert("chuỗi bận vừa nhập là : "+nhapChuoi)
+    function chuyenDoiKiTuThanhInThuong(chuoi) {
+        let chuyenDoiChuoi = chuoi.toLowerCase();//chuyển đổi tất cả các k tự trong chuỗi thành in thường.
+        let mang = [];
+        mang = chuyenDoiChuoi.split(" ");
+        let mang1 = [];
+        for (let i = 0; i < mang.length; i++) {
+            if (mang[i] !== "") {
+                mang1.push(mang[i]);  //xóa những khoảng trắng dư thừa.
+            }
+        }
+        for (let i = 0; i < mang1.length; i++) {
+            mang1[i]=mang1[i].split("")
+            mang1[i][0]=mang1[i][0].toLocaleUpperCase();//in hoa những chữ cái đầu tiên.
+            mang1[i]=mang1[i].join("");
+        }
+        return mang1.join(" ");
+    }
+    chuyenDoiKiTuThanhInThuong(nhapChuoi);
+    let ketQua = chuyenDoiKiTuThanhInThuong(nhapChuoi);
+    alert("kết quả sau chỉnh sửa là: "+ketQua);
+    function timTuDaiNhatTrongChuoi(chuoi) {
+        let tuDaiNhat = chuoi.split(" ");
+        let bienLuuTu = "";
+        for (let i = 0; i < tuDaiNhat.length; i++) {
+            if (tuDaiNhat[i].length > bienLuuTu.length) {
+                bienLuuTu = tuDaiNhat[i];                       //tìm từ dài nhất trong chuỗi
+            }
+        }
+        alert("từ dài nhất trong mảng là: "+bienLuuTu)
+    }
+        timTuDaiNhatTrongChuoi(ketQua);
+</script>
+</body>
+</html>

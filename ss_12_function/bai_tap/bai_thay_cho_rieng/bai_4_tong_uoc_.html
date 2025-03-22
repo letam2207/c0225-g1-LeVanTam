@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let mang = [];
+    let nhapDoDaiMang = +prompt("Nhập độ dài mảng n: ");
+
+    for (let i = 0; i < nhapDoDaiMang; i++) {
+        let nhapPhanTu = +prompt(`Nhập phần tử thứ ${i + 1}: `);
+        mang.push(nhapPhanTu);
+    }
+    alert("Mảng vừa nhập: " + mang);
+
+    function tinhUoc(num) {
+        let mangSauKhiSua = [];
+        for (let j = 0; j < num.length; j++) {
+            let phanTu = num[j];
+            let uocSo = [];
+
+            for (let i = 1; i <= phanTu; i++) {
+                if (phanTu % i === 0) {
+                    uocSo.push(i);
+                }
+            }
+            let tongUoc = 0;
+            for (let i = 0; i < uocSo.length; i++) {
+                tongUoc += uocSo[i];
+            }
+            mangSauKhiSua.push(tongUoc);
+        }
+        alert("mảng sau khi chỉnh sửa là : " + mangSauKhiSua);
+
+    }
+
+    tinhUoc(mang);
+</script>
+</body>
+</html>

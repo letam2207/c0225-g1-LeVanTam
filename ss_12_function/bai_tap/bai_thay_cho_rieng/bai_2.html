@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiểm tra mảng</title>
+</head>
+<body>
+<script>
+    let nhapPhanTu = prompt("Nhập các phần tử trong mảng cách nhau bằng dấu cách:");
+    let mang = nhapPhanTu.split(" ");
+    function kiemTraMang(arr) {
+        let phanTuChiaHetCho3 = 0;
+        let phanTuChiaHetCho5 = 0;
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] % 3 === 0) {
+                phanTuChiaHetCho3++;
+            }
+            if (arr[i] % 5 === 0) {
+                phanTuChiaHetCho5++;
+            }
+        }
+        return phanTuChiaHetCho3 === phanTuChiaHetCho5;
+    }
+    if (kiemTraMang(mang)) {
+        alert("true");
+    } else {
+        alert("false");
+    }
+</script>
+</body>
+</html>
