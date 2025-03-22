@@ -5,6 +5,12 @@
     <title>Title</title>
 </head>
 <body>
+<!--Viêt 1 hàm truyền vào một tham số là một mảng .-->
+<!--Kiểm tra mảng. Nếu các phần tử phía trước của mỗi
+phần tử đều là ước của nó thì hiện thị OK, không phải thì trả về NO-->
+<!--Ví dụ: [1,2,6,12,48] =>OK( vì 1 là ước của
+ 2  và  1,2 là ước của 6  và  1,2,6 là ước của 12 và 1,2,6,12 là ước của 48)-->
+<!--Ví dụ: [1,2,6,13,48] =>NO ( vì 6 không phải là ước 13)-->
 <script>
     let nhapPhanTuMang = prompt("Nhập các phần tử trong mảng cách nhau bằng dấu cách:");
     let mang = nhapPhanTuMang.split(" ");
