@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class HinhChuNhat {
+        constructor(chieudai, chieurong) {
+            this.chieudai = chieudai;
+            this.chieurong = chieurong;
+        }
+
+        TinhDienTinh() {
+            let dienTichHinhChuNhat = this.chieudai * this.chieurong;
+            console.log(`Diện tích hình chữ nhật là: ${dienTichHinhChuNhat}`);
+        }
+
+        TinhChuVi() {
+            let chuViHinhChuNhat = (this.chieudai + this.chieurong) * 2;
+            console.log(`Chu vi hình chữ nhật là: ${chuViHinhChuNhat}`);
+        }
+    }
+
+    let hienThi = new HinhChuNhat(20, 10);
+    hienThi.TinhChuVi();
+    hienThi.TinhDienTinh();
+
+</script>
+</body>
+</html>
