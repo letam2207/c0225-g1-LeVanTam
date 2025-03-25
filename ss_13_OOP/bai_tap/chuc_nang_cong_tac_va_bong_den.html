@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Bóng đèn</title>
+</head>
+<body>
+<script>
+    class BongDen {
+        constructor(trangthai = false) {
+            this.trangthai = trangthai;
+
+        }
+        getTrangThai() {
+            return this.trangthai;
+        }
+        setTrangThai(trangthai) {
+            this.trangthai = trangthai;
+        }
+    }
+    class CongTac {
+        constructor(den) {
+            this.den = den;
+        }
+        congTacTat() {
+            this.den.setTrangThai(false);
+            return this.den.getTrangThai();
+        }
+        congTacBat() {
+            this.den.setTrangThai(true);
+            return this.den.getTrangThai();
+        }
+    }
+    let bongDen1 = new BongDen(false);
+    let congTac1 = new CongTac(bongDen1);
+    for (let i = 0; i < 10; i++) {
+        console.log("Công tắc bật:", congTac1.congTacBat());
+        console.log("Trạng thái bóng đèn:", bongDen1.getTrangThai());
+        console.log("Công tắc tắt:", congTac1.congTacTat());
+        console.log("Trạng thái bóng đèn:", bongDen1.getTrangThai());
+    }
+
+</script>
+</body>
+</html>

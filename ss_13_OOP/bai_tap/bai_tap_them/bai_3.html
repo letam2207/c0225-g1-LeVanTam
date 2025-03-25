@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // kiểm chuỗi nhập vào la 1 email : xxxxxx@yyy.sss;
+    let chuoi=prompt("nhập chuỗi :");
+    function kiemTraKhoangTrang(arr) {
+        let array = arr.split(" ");
+        alert(array)
+        return !array.includes("");
+    }
+   alert(kiemTraKhoangTrang(chuoi));
+</script>
+</body>
+</html>

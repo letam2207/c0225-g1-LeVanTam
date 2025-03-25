@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class QuaTao {
+        constructor(khoiLuong, trangThai) {
+            this.khoiLuong = khoiLuong;
+            this.trangThai = trangThai;
+        }
+    }
+
+    class ConNguoi {
+        constructor(ten, gioiTinh, cangNang) {
+            this.ten = ten;
+            this.gioiTinh = gioiTinh;
+            this.canNang = cangNang;
+
+        }
+
+        noi(text) {
+            console.log(text);
+        }
+
+        anTao(quaTao) {
+            if (quaTao.trangThai === false) {
+                this.noi("không có táo rồi");
+            } else if (quaTao.khoiLuong > 0) {
+                this.canNang += 1;
+                quaTao.khoiLuong -= 1;
+                this.noi(this.ten + " " + this.gioiTinh + " :ăn thôi");
+            } else {
+                this.noi(this.ten + " " + this.gioiTinh + " :hết táo rồi");
+            }
+        }
+
+    }
+
+    let quaTao1 = new QuaTao(10, true);
+    let nam = new ConNguoi("Adam", "nam", 50);
+    let nu = new ConNguoi("Eva", "nữ", 40);
+    nam.anTao(quaTao1);
+    nu.anTao(quaTao1);
+    console.log("cân nặng Adam: " + nam.canNang);
+    console.log("cân nặng Eva: " + nu.canNang);
+    console.log("khối lượn quả táo: " + quaTao1.khoiLuong);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let mang1 = prompt("Nhập mảng 1 (các số cách nhau bằng dấu ,):").split(",");
+    let mang2 = prompt("Nhập mảng 2 (các số cách nhau bằng dấu ,):").split(",");
+    alert("mảng 1: "+arr1+"mảng 2 :"+arr2)
+    function kiemHaiMang(arr1,arr2){
+        for (let i = 0; i < arr1.length; i++) {
+            for (let j = 0; j <arr2.length; j++) {
+                if (arr1[i]!==arr2[j]){
+                   return false;
+                }
+            }
+        }
+    }
+    if (kiemHaiMang(mang1,mang2)){
+        alert(true);
+    }else {
+        alert(false)
+    }
+</script>
+</body>
+</html>
