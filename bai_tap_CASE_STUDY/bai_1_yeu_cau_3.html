@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // kiểm chuỗi nhập vào la 1 email : xxxxxx@yyy.zzz;
+    let nhapEmail = prompt("nhập Email: ")
+
+    function kiemTraEmail(arr) {
+        let soLuong1 = 0;
+        let soLuong2 = 0;
+        for (let i = 0; i < arr.length; i++) {
+            let check = arr[i];
+            if (check === '@') {
+                soLuong1++;
+            }
+            if (check === '.') {
+                soLuong2++;
+            }
+        }
+        if (soLuong1 !== 1 || soLuong2 < 1){
+            return false;
+        }
+        if (arr[0]==="@"||arr[arr.length-1]==="@"){
+            return false;
+        }
+        if (arr.length < 6 || !isNaN(arr[0])){
+            return false;
+        }
+
+        return true;
+    }
+    alert(kiemTraEmail(nhapEmail));
+</script>
+</body>
+</html>

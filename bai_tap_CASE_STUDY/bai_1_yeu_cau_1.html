@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let mang = +prompt("nhập số tiền khác hàng đã dùng: ");
+
+    function xepHangKhachHang(soTienKhach) {
+        if (soTienKhach < 100) {
+            alert("khách hàng hạng Bronze !")
+        } else if (soTienKhach < 499) {
+            alert(`khách hàng hạng Siver ! \n giảm 5% cho đơn hàng tiếp theo .`);
+        } else if (soTienKhach < 900) {
+            alert(`khách hàng hạng Gold ! \n giảm 10% cho đơn hàng tiếp theo và miễn phí giao hàng .`);
+        } else if (soTienKhach >= 1000) {
+            alert(`khách hàng hạng Platinum ! \n giảm 20% cho đơn hàng tiếp theo và miễn phí giao hàng .`);
+        }
+    }
+
+    xepHangKhachHang(mang);
+</script>
+</body>
+</html>

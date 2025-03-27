@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let mang1 = [7, 2, 5, 3, 5, 3];
+    let mang2 = [7, 2, 5, 4, 6, 3, 5, 3];
+    let mang3 = [];
+
+    for (let i = 0; i < mang2.length; i++) {
+        let check = false;
+        for (let j = 0; j < mang1.length; j++) {
+            if (mang2[i] === mang1[j]) {
+                check = true;
+                break;
+            }
+        }
+        if (!check) {
+            mang3.push(mang2[i]);
+        }
+    }
+    alert(mang3);
+</script>
+</body>
+</html>

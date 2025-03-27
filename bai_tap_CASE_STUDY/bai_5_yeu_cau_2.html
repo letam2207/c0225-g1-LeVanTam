@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Order Drinks</title>
+</head>
+<body>
+<script>
+    let gia = [12000, 20000, 20000, 20000, 10000, 15000];
+    let danhSach = ["Cafe", "Cam vắt", "Nước ép cà rốt",
+        "Nước ép cà chua", "Nước lọc", "Nước dừa"];
+    let soLuong = [0, 0, 0, 0, 0, 0];
+    let danhSachMon = "";
+    for (let i = 0; i < danhSach.length; i++) {
+        danhSachMon += `\n ${i + 1}. ${danhSach[i]} - Giá : ${gia[i]} VNĐ`
+    }
+    while (true) {
+        let danhSachchon = "";
+        let tongTien = 0;
+        for (let i = 0; i < soLuong.length; i++) {
+            if (soLuong[i] !== 0) {
+                danhSachchon += `\n${i + 1}. ${danhSach[i]} Số Lượng:${soLuong[i]}`
+                tongTien += soLuong[i] * gia[i];
+            }
+        }
+        let chon = +prompt(`----------Danh sách các món:----------
+         \n ${danhSachMon} \n
+         -----------------------------------------------
+         \n ${danhSachchon} \n Tổng tiền :${tongTien} VNĐ`)
+        switch (chon) {
+            case 1:
+                let sl1 = soLuong[chon - 1];
+                sl1++;
+                soLuong[chon - 1] = sl1;
+                break;
+            case 2:
+                let sl2 = soLuong[chon - 1];
+                sl2++;
+                soLuong[chon - 1] = sl2;
+                break;
+            case 3:
+                let sl3 = soLuong[chon - 1];
+                sl3++;
+                soLuong[chon - 1] = sl3;
+                break;
+            case 4:
+                let sl4 = soLuong[chon - 1];
+                sl4++;
+                soLuong[chon - 1] = sl4;
+                break;
+            case 5:
+                let sl5 = soLuong[chon - 1];
+                sl5++;
+                soLuong[chon - 1] = sl5;
+                break;
+            case 6:
+                let sl6 = soLuong[chon - 1];
+                sl6++;
+                soLuong[chon - 1] = sl6;
+                break;
+            default:
+        }
+    }
+
+</script>
+</body>
+</html>
