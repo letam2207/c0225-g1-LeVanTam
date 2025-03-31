@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let nhapDoDaiMang;
+    do {
+        nhapDoDaiMang = +prompt("Nhập độ dài mảng n (nguyên, ≤ 50): ");
+    } while (isNaN(nhapDoDaiMang) || nhapDoDaiMang % 1 !== 0 || nhapDoDaiMang > 50 || nhapDoDaiMang <= 0);
+    let mang = [];
+    let tongLe = 0;
+    let tongChan = 0;
+    function kiemTraMangTongChanLe(arr) {
+        for (let i = 0; i < nhapDoDaiMang; i++) {
+            let nhapPhanTu = +prompt(`Nhập phần tử thứ ${i + 1}: `);
+           arr.push(nhapPhanTu);
+        }
+        alert("mang vừa nhập là: " + arr);
+        for (let i = 0; i < arr.length; i++) {
+            if (i % 2 === 0) {
+                tongChan += arr[i];
+            } else {
+                tongLe += arr[i];
+            }
+        }
+        alert("tổng phần tử ở vị trí chẵn là : " + tongChan);
+        alert("tổng phần tử ở vị trí lẻ là :" + tongLe);
+    }
+
+    kiemTraMangTongChanLe(mang);
+</script>
+</body>
+</html>

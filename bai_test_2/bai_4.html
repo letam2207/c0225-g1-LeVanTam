@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="bang"></div>
+<script>
+    class DanhBa {
+        constructor(soDanhBa,tenChuDanhBa,diaChi) {
+            this.soDanhBa = soDanhBa;
+            this.tenChuDanhBa = tenChuDanhBa;
+            this.diaChi = diaChi;
+        }
+    }
+    let p1 = new DanhBa("03445454", "Anh Vinh", "Đà Nẵng")
+    let p2 = new DanhBa("03949856", "Bạn Hưng", "Đà Nẵng")
+    let p3 = new DanhBa("05454245", "Anh Thắng", "Thanh Hóa")
+    let mangBanDau = [p1, p2,p3];
+    display(mangBanDau, "bang");
+    function display(list) {
+        let bangChuoi = `<table border="1" style="border-collapse: collapse">
+                  <tr>
+                    <th>STT</th>
+                    <th>Số điện thoại</th>
+                    <th>Tên chủ danh bạ</th>
+                    <th>Địa chỉ</th>
+                    <th>Chức năng</th>
+                  </tr>`;
+        for (let i = 0; i < list.length; i++) {
+            bangChuoi += `<tr>
+                      <td>${i + 1}</td>
+                     <td>${list[i].soDanhBa}</td>
+                     <td>${list[i].tenChuDanhBa}</td>
+                     <td>${list[i].diaChi}</td>
+                     <td><button onclick="xoaDanhBa(${i})">Xóa</button></td>
+                 </tr>`
+        }
+        document.getElementById("bang").innerHTML = bangChuoi;
+    }
+
+    function xoaDanhBa(index) {
+        let conf = confirm("bạn có muốn xóa danh bạ không ?")
+        if (conf) {
+            mangBanDau.splice(index, 1);
+        }
+        display(mangBanDau);
+    }
+</script>
+</body>
+</html>

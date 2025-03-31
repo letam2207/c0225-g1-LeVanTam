@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let chuoiKiTu = "   "
+    let chuInHoa = 0;
+    let chuInThuong = 0;
+
+    function demKiTuInHoaInThuong(str) {
+        for (let i = 0; i < str.length; i++) {
+            if (str[i] >= "a" && str[i] <= "z") {
+                chuInThuong++;
+            } else if (str[i] >= "A" && str[i] <= "Z") {
+                chuInHoa++;
+            }
+        }
+        return[chuInThuong,chuInHoa]
+        // alert(`Số lượng chữ in thường là :${chuInThuong}`);
+        // alert(`Số lượng chữ in hoa là: ${chuInHoa}`);
+    }
+
+    alert(demKiTuInHoaInThuong(chuoiKiTu));
+</script>
+</body>
+</html>

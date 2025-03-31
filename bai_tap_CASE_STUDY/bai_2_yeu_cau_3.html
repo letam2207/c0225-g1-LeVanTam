@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let chuoiKiTu = "abefaefghedcb";
+    let max = "";
+    let luuChu = [];
+    let luuChu2 = [];
+
+    function timChuoiDoDaiNhat(str) {
+        let giaTriBanDau = str[0];
+
+        for (let i = 1; i < str.length; i++) {
+            if (str[i] >= str[i - 1]) {
+                giaTriBanDau += str[i];
+            } else {
+                luuChu.push(giaTriBanDau);
+                giaTriBanDau = str[i];
+            }
+        }
+        luuChu.push(giaTriBanDau);
+        alert(luuChu);
+
+        for (let i = 0; i < luuChu.length; i++) {
+            if (luuChu[i].length > max.length) {
+                max = luuChu[i];
+            }
+        }
+        luuChu2.push(max);
+        alert(luuChu2);
+    }
+
+    timChuoiDoDaiNhat(chuoiKiTu);
+</script>
+</body>
+</html>

@@ -21,18 +21,45 @@
                 soLuong2++;
             }
         }
-        if (soLuong1 !== 1 || soLuong2 < 1){
+        let tachChuoi1 = arr.split("@")
+        if (tachChuoi1.length !== 2) {
             return false;
         }
-        if (arr[0]==="@"||arr[arr.length-1]==="@"){
+        let dauChuoi = tachChuoi1[0];
+        let cuoiChoi = tachChuoi1[1];
+        if (soLuong1 !== 1 || soLuong2 < 1) {
             return false;
         }
-        if (arr.length < 6 || !isNaN(arr[0])){
+        if (dauChuoi[0] === "@" || dauChuoi[dauChuoi.length - 1] === "@") {
             return false;
+        }
+        if (arr.length < 6 || !isNaN(arr[0])) {
+            return false;
+        }
+        let tachChuoi2 = cuoiChoi.split(".")
+        if (tachChuoi2.length !== 2) {
+            return false;
+        }
+        let dauChuoi1 = tachChuoi2[0];
+        let cuoiChuoi = tachChuoi2[1];
+        if (dauChuoi1.length < 3 || dauChuoi1.length > 10 || cuoiChuoi.length < 3 || cuoiChuoi.length > 10) {
+            return false;
+        }
+
+        for (let i = 0; i < dauChuoi1.length; i++) {
+            if (dauChuoi1[i] >= "A" && dauChuoi1[i] <= "Z") {
+                return false;
+            }
+        }
+        for (let i = 0; i < cuoiChuoi.length; i++) {
+            if (cuoiChuoi[i] >= "A" && cuoiChuoi[i] <= "Z") {
+                return false;
+            }
         }
 
         return true;
     }
+
     alert(kiemTraEmail(nhapEmail));
 </script>
 </body>

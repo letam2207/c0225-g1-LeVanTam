@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="maSanPham" placeholder="nhập mã máy tính ">
+<input id="tenSanPham" placeholder="nhập tên máy tính ">
+<input id="tenHang" placeholder="nhập tên hãng máy tính ">
+<input id="gia" placeholder="nhập giá máy tính ">
+<button onclick="themMoiSanPham()">Thêm</button>
+<div id="bang"></div>
+<script>
+    class MayTinh {
+        constructor(maMayTinh, tenMayTinh, tenHangMayTinh, giaBan) {
+            this.maMayTinh = maMayTinh;
+            this.tenMaytinh = tenMayTinh;
+            this.tenHangMayTinh = tenHangMayTinh;
+            this.giaBan = giaBan;
+        }
+    }
+
+    let p1 = new MayTinh("112", "LOQ", "Lenovo", 19000)
+    let p2 = new MayTinh("113", "acer", "Asus", 20000)
+    let mangBanDau = [p1, p2];
+    display(mangBanDau, "bang");
+
+    function display(list) {
+        let bangChuoi = `<table border="1" style="border-collapse: collapse">
+                  <tr>
+                    <th>STT</th>
+                    <th>Mã sản phẩm</th>
+                    <th>Tên sản phẩm</th>
+                    <th>Tên hãng</th>
+                    <th>Giá sản phẩm</th>
+                  </tr>`;
+        for (let i = 0; i < list.length; i++) {
+            bangChuoi += `<tr>
+                      <td>${i + 1}</td>
+                     <td>${list[i].maMayTinh}</td>
+                     <td>${list[i].tenMaytinh}</td>
+                     <td>${list[i].tenHangMayTinh}</td>
+                     <td>${list[i].giaBan}</td>
+                 </tr>`
+        }
+        document.getElementById("bang").innerHTML = bangChuoi;
+    }
+
+    function themMoiSanPham() {
+        let ma = document.getElementById("maSanPham").value;
+        let ten = document.getElementById("tenSanPham").value;
+        let tenHang = document.getElementById("tenHang").value;
+        let gia = document.getElementById("gia").value;
+        if (ma === "" || ten === "" || tenHang === "" || gia === "") {
+            alert("Vui lòng nhập đầy đủ thông tin sản phẩm");
+            return;
+        }
+        let sanPhamMoi = new MayTinh(ma, ten, tenHang, gia);
+        display(mangBanDau);
+        mangBanDau.push(sanPhamMoi);
+        document.getElementById("maSanPham").value = "";
+        document.getElementById("tenSanPham").value = "";
+        document.getElementById("tenHang").value = "";
+        document.getElementById("gia").value = "";
+    }
+</script>
+</body>
+</html>

@@ -63,7 +63,7 @@
 <span>tổng số lượng sản phẩm :</span><span id="soLuong"></span>
 <div id="bang"></div>
 <script>
-    class SanPham {
+    class mayTinh {
         constructor(ma, tensanpham, gia) {
             this.maSanPham = ma;
             this.tensanpham = tensanpham;
@@ -71,9 +71,9 @@
         }
     }
 
-    let p1 = new SanPham(1312, "SamSung", 100 + "$")
-    let p2 = new SanPham(2312, "Iphone", 300 + "$")
-    let p3 = new SanPham(3433, "Xiaomi", 200 + "$")
+    let p1 = new mayTinh(1312, "SamSung", 100 + "$")
+    let p2 = new mayTinh(2312, "Iphone", 300 + "$")
+    let p3 = new mayTinh(3433, "Xiaomi", 200 + "$")
     let mangBanDau = [p1, p2, p3];
     display(mangBanDau, "bang");
 
@@ -108,7 +108,7 @@
             alert("Vui lòng nhập đầy đủ thông tin sản phẩm");
             return;
         }
-        let sanPhamMoi = new SanPham(ma, ten, gia + "$");
+        let sanPhamMoi = new mayTinh(ma, ten, gia + "$");
         mangBanDau.push(sanPhamMoi);
         display(mangBanDau);
         document.getElementById("id").value = "";
@@ -130,7 +130,7 @@
             let suaMa = prompt("nhập mã muốn sửa :");
             let suaTen = prompt("nhập tên muốn sửa :");
             let suaGia = prompt("nhập giá muốn sửa :");
-            let suaSanPham = new SanPham(suaMa, suaTen, suaGia + "$")
+            let suaSanPham = new mayTinh(suaMa, suaTen, suaGia + "$")
             mangBanDau[i] = suaSanPham;
         }
         display(mangBanDau);
